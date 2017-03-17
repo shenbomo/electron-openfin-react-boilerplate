@@ -1,0 +1,19 @@
+{
+  "devtools_port": 9090,
+  "startup_app": {
+    "name": "OpenFin with React, Webpack and Babel",
+    "description": "A demo OpenFin app with React, Webpack and Babel",
+    "url": "http://localhost:8080/index_openfin.html",
+    "uuid": "openfin-demo-application",
+    "autoShow": true
+  },
+  "runtime": {
+    "arguments": "",
+    "version": "stable"
+  },
+  "shortcut": {
+    "company": "OmniVista Solutions Inc.",
+    "description": "OpenFin React Webpack Babel",
+    "name": "OpenFin React Webpack Babel"
+  }
+}
