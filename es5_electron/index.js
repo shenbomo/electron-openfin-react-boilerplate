@@ -14,7 +14,7 @@ app.on('ready', function() {
   let mainWindow = new BrowserWindow({width: 1360, height: 800});
   mainWindow.loadURL('http://localhost:8080/index_electron.html');
   mainWindow.openDevTools();
-  require('devtron').install();
+  devtron.install();
   mainWindow.on('closed', function() {
     mainWindow = null;
   });
