@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function(){
-    init();
-});
+    init()
+})
 
 function init(){
     /* Code common to both OpenFin and browser to go above.
@@ -9,19 +9,19 @@ function init(){
      */
     try{
         fin.desktop.main(function(){
-            initWithOpenFin();
+            initWithOpenFin()
         })
     }catch(err){
-        initNoOpenFin();
+        initNoOpenFin()
     }
-};
+}
 
 function initWithOpenFin(){
-    alert("OpenFin is available");
+    alert("OpenFin is available")
     // Your OpenFin specific code to go here...
 }
 
 function initNoOpenFin(){
-    alert("OpenFin is not available - you are probably running in a browser.");
+    alert("OpenFin is not available - you are probably running in a browser.")
     // Your browser-only specific code to go here...
 }

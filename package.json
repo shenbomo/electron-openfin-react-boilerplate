@@ -37,6 +37,7 @@
     "react": "latest",
     "react-dom": "latest",
     "sass-loader": "latest",
+    "standard": "^9.0.2",
     "style-loader": "latest",
     "webpack": "latest",
     "webpack-dev-server": "latest"

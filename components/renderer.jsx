@@ -1,6 +1,6 @@
-import React from 'react';
-import ReactDom from 'react-dom';
-import Nested from './nested.jsx';
+import React from 'react'
+import ReactDom from 'react-dom'
+import Nested from './nested.jsx'
 
 let renderer = (
     <div>
@@ -8,5 +8,5 @@ let renderer = (
         <Nested/>
     </div>
 )
-ReactDom.render(renderer, document.getElementById('renderer'));
+ReactDom.render(renderer, document.getElementById('renderer'))
 

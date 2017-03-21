@@ -1,6 +1,6 @@
-import React from 'react';
-import Hello from './hello.jsx';
-import World from './world.jsx';
+import React from 'react'
+import Hello from './hello.jsx'
+import World from './world.jsx'
 
 export default class Nested extends React.Component {
     render() {
